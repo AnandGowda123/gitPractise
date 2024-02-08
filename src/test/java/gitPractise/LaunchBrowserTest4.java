@@ -15,6 +15,8 @@ public class LaunchBrowserTest4 extends BaseCLass {
         driver= initializeDriver();
         driver.get("https://demoautomation2303.aurigo.net/");
         System.out.println("added new code");
+        System.out.println("added new code2");
+        System.out.println("added new code3");
         driver.close();
     }
 }
