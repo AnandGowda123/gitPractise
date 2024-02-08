@@ -1,0 +1,14 @@
+git rm -r --cached # ignore an entire target directory
+/target/
+
+# ignore an entire .idea directory
+/.idea/
+
+# ignore a .iml file
+
+# ignore an entire test ouput directory
+/test-output/
+debug.log
+/Reports
+/Screenshots
+/logfiles
