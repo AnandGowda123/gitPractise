@@ -20,11 +20,11 @@
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>3.2.5</version>
                 <configuration>
-                    <SuiteXmlFiles>
-                        <SuiteXmlFile>
+                    <suiteXmlFiles>
+                        <suiteXmlFile>
                             testng.xml
-                        </SuiteXmlFile>
-                    </SuiteXmlFiles>
+                        </suiteXmlFile>
+                    </suiteXmlFiles>
                 </configuration>
             </plugin>
         </plugins>
