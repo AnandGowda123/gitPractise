@@ -14,6 +14,7 @@ public class LaunchBrowserTest extends BaseCLass {
     public void launchBrowser() throws IOException {
         driver= initializeDriver();
         driver.get("https://demoautomation2303.aurigo.net/");
+        System.out.println("added new code");
         driver.close();
     }
 }
