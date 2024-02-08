@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 
 import java.io.IOException;
 
-public class LaunchBrowserTest extends BaseCLass {
+public class LaunchBrowserTest1 extends BaseCLass {
 
     WebDriver driver;
 
@@ -16,7 +16,7 @@ public class LaunchBrowserTest extends BaseCLass {
         driver.get("https://demoautomation2303.aurigo.net/");
         System.out.println("added new code");
         System.out.println("added second code");
-        System.out.println("added third code");
+        System.out.println("added second code");
         driver.close();
     }
 }
